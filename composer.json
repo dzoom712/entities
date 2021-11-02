@@ -6,5 +6,10 @@
             "email": "443852256@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "dongxiannan\\enities\\": "src/"
+        }
+    }
 }
