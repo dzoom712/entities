@@ -1,8 +1,8 @@
 <?php
 
-namespace dongxiannan\entities;
+namespace Dongxiannan\Entities;
 
-use dongxiannan\entities\Commands\ModelMakeCommand;
+use Dongxiannan\Entities\Commands\ModelMakeCommand;
 use Illuminate\Support\ServiceProvider;
 
 class EntitiesProvider extends ServiceProvider
