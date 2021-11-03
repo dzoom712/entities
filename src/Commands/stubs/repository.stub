@@ -1,0 +1,18 @@
+<?php
+
+namespace Modules\{{module}}\Repositories;
+
+use Modules\{{module}}\Entities\{{model}};
+
+class {{model}}Repository
+{
+    protected ${{model_lower}};
+
+    public function __construct()
+    {
+        $this->{{model_lower}} = new {{model}}();
+
+    }
+
+
+}

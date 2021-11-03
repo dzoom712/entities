@@ -13,7 +13,9 @@ use Illuminate\Database\Eloquent\Model;
  */
 class {{class_name}} extends Model
 {
+    {{connection}}
     protected $table = '{{table_name}}';
+
     public $timestamps = false;
 
 

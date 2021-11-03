@@ -1,10 +1,18 @@
 <?php
 
-namespace DummyNamespace;
 
-class DummyClass
+namespace Modules\{{module}}\Services;
+
+use Modules\{{module}}\Helper\Formatter;
+use Modules\{{module}}\Repositories\{{model}}Repository;
+
+class {{model}}Service
 {
-    protected $repository;
+    protected ${{model_lower}}Repository;
 
-    //
+    public function __construct()
+    {
+        $this->{{model_lower}}Repository = new {{model}}Repository();
+    }
+
 }
