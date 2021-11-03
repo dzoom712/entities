@@ -11,5 +11,12 @@
         "psr-4": {
             "Dongxiannan\\Entities\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dongxiannan\\Entities\\EntitiesProvider"
+            ]
+        }
     }
 }
