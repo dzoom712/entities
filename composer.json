@@ -10,9 +10,6 @@
     "autoload": {
         "psr-4": {
             "Dongxiannan\\entities\\": "src/"
-        },
-        "files": [
-            "src/helper.php"
-        ]
+        }
     }
 }
