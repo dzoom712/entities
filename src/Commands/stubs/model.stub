@@ -1,0 +1,21 @@
+<?php
+namespace {{namespace}};
+
+use Illuminate\Database\Eloquent\Model;
+
+
+/**
+ * Model {{class_name}}
+ *
+{{ide_property}}
+{{ide_method}}
+ *
+ */
+class {{class_name}} extends Model
+{
+    protected $table = '{{table_name}}';
+    public $timestamps = false;
+
+
+
+}
