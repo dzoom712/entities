@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Dongxiannan\\entities\\": "src/"
+            "Dongxiannan\\Entities\\": "src/"
         }
     }
 }
